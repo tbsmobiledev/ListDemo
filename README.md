@@ -3,14 +3,14 @@
 List View application features:
 
   - Use of List Views: UITableView and UICollectionView.
-  - Usage of different attributes like corner radius,shadow property, etc.
+  - Usage of different attributes like corner radius, etc.
   - Show data from plist files and text files.
   
 #### User Interface:
 The application uses various UITableView and UICollectionView delegate methods to display customised cells of different sizes along with attributed text and images.
  
 #### Helper Class
-It is a customised class saved in Third Party folder. It contains class type for accessing various features in the storyboard IBInspectable property for easy access to each functionality. It has type extension of String, View, View Controller and many more for new functionalities and code optimization. 
+It contains class type for accessing various features in the storyboard IBInspectable property for easy access to each functionality. It has type extension of String, View, View Controller and many more for new functionalities and code optimization. 
 
 ### Installation
 ListDemo requires macOS and IDE-Xcode 10+ to run.
