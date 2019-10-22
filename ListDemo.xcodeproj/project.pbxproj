@@ -14,9 +14,6 @@
 		B735B5AB2355EB8200964462 /* CollectionViewList.m in Sources */ = {isa = PBXBuildFile; fileRef = B735B5A32355EB8200964462 /* CollectionViewList.m */; };
 		B735B5AC2355EB8200964462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B735B5A72355EB8200964462 /* AppDelegate.m */; };
 		B735B5AD2355EB8200964462 /* TableViewList.m in Sources */ = {isa = PBXBuildFile; fileRef = B735B5AA2355EB8200964462 /* TableViewList.m */; };
-		B735B5B32355FA4000964462 /* AZPreviewImageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B735B5B02355FA4000964462 /* AZPreviewImageViewDelegate.swift */; };
-		B735B5B42355FA4000964462 /* PannableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B735B5B12355FA4000964462 /* PannableScrollView.swift */; };
-		B735B5B52355FA4000964462 /* AZImagePresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B735B5B22355FA4000964462 /* AZImagePresenterViewController.swift */; };
 		C417F0C2235D84FD00738316 /* CountryData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C417F0C1235D84FD00738316 /* CountryData.plist */; };
 		C417F0C5235D877600738316 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C417F0C4235D877600738316 /* CountryModel.m */; };
 		C417F0CA235D908600738316 /* Data.txt in Resources */ = {isa = PBXBuildFile; fileRef = C417F0C9235D908600738316 /* Data.txt */; };
@@ -35,9 +32,6 @@
 		B735B5A72355EB8200964462 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B735B5A92355EB8200964462 /* TableViewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewList.h; sourceTree = "<group>"; };
 		B735B5AA2355EB8200964462 /* TableViewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewList.m; sourceTree = "<group>"; };
-		B735B5B02355FA4000964462 /* AZPreviewImageViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZPreviewImageViewDelegate.swift; sourceTree = "<group>"; };
-		B735B5B12355FA4000964462 /* PannableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PannableScrollView.swift; sourceTree = "<group>"; };
-		B735B5B22355FA4000964462 /* AZImagePresenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZImagePresenterViewController.swift; sourceTree = "<group>"; };
 		C417F0C1235D84FD00738316 /* CountryData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryData.plist; sourceTree = "<group>"; };
 		C417F0C3235D877600738316 /* CountryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
 		C417F0C4235D877600738316 /* CountryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
@@ -74,7 +68,6 @@
 		B735B58A2355D34900964462 /* ListDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B735B5AE2355FA4000964462 /* ThirdPartyClass */,
 				B735B5A12355EB8200964462 /* ViewController */,
 				B735B5912355D34900964462 /* Main.storyboard */,
 				B735B5942355D36200964462 /* Assets.xcassets */,
@@ -123,24 +116,6 @@
 				B735B5AA2355EB8200964462 /* TableViewList.m */,
 			);
 			path = TableViewList;
-			sourceTree = "<group>";
-		};
-		B735B5AE2355FA4000964462 /* ThirdPartyClass */ = {
-			isa = PBXGroup;
-			children = (
-				B735B5AF2355FA4000964462 /* ImagePreview */,
-			);
-			path = ThirdPartyClass;
-			sourceTree = "<group>";
-		};
-		B735B5AF2355FA4000964462 /* ImagePreview */ = {
-			isa = PBXGroup;
-			children = (
-				B735B5B02355FA4000964462 /* AZPreviewImageViewDelegate.swift */,
-				B735B5B12355FA4000964462 /* PannableScrollView.swift */,
-				B735B5B22355FA4000964462 /* AZImagePresenterViewController.swift */,
-			);
-			path = ImagePreview;
 			sourceTree = "<group>";
 		};
 		C417F0C6235D878000738316 /* Model */ = {
@@ -224,14 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B735B5B42355FA4000964462 /* PannableScrollView.swift in Sources */,
 				B735B5AB2355EB8200964462 /* CollectionViewList.m in Sources */,
 				B735B5AD2355EB8200964462 /* TableViewList.m in Sources */,
-				B735B5B32355FA4000964462 /* AZPreviewImageViewDelegate.swift in Sources */,
 				B735B59B2355D36200964462 /* main.m in Sources */,
 				B735B5AC2355EB8200964462 /* AppDelegate.m in Sources */,
 				C417F0C5235D877600738316 /* CountryModel.m in Sources */,
-				B735B5B52355FA4000964462 /* AZImagePresenterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
