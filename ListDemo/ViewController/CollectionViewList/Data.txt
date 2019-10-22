@@ -1,0 +1,7 @@
+1,Great Wall of China,In China,GreatWall
+2,Christ the Redeemer Statue,Rio de Janeiro,Christ
+3,Machu Picchu,Peru,MachuPicchu
+4,Chichen Itza,Yucatan Peninsula,ChichenItza
+5,The Roman Colosseum,Rome,Colosseum
+6,Taj Mahal,Agra,TajMahal
+7,Petra,Jordan,Petra

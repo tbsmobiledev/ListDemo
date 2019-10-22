@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>title</key>
+		<string>Great Wall of China</string>
+		<key>desc</key>
+		<string>In China</string>
+		<key>image</key>
+		<string>GreatWall</string>
+	</dict>
+    <dict>
+        <key>id</key>
+        <string>2</string>
+        <key>title</key>
+        <string>Christ the Redeemer Statue</string>
+        <key>desc</key>
+        <string>Rio de Janeiro</string>
+        <key>image</key>
+        <string>Christ</string>
+    </dict>
+    <dict>
+        <key>id</key>
+        <string>3</string>
+        <key>title</key>
+        <string>Machu Picchu</string>
+        <key>desc</key>
+        <string>Peru</string>
+        <key>image</key>
+        <string>MachuPicchu</string>
+    </dict>
+    <dict>
+        <key>id</key>
+        <string>4</string>
+        <key>title</key>
+        <string>Chichen Itza</string>
+        <key>desc</key>
+        <string>Yucatan Peninsula</string>
+        <key>image</key>
+        <string>ChichenItza</string>
+    </dict>
+    <dict>
+        <key>id</key>
+        <string>5</string>
+        <key>title</key>
+        <string>The Roman Colosseum</string>
+        <key>desc</key>
+        <string>Rome</string>
+        <key>image</key>
+        <string>Colosseum</string>
+    </dict> <dict>
+        <key>id</key>
+        <string>6</string>
+        <key>title</key>
+        <string>Taj Mahal</string>
+        <key>desc</key>
+        <string>Agra</string>
+        <key>image</key>
+        <string>TajMahal</string>
+    </dict>
+    <dict>
+        <key>id</key>
+        <string>7</string>
+        <key>title</key>
+        <string>Petra</string>
+        <key>desc</key>
+        <string>Jordan</string>
+        <key>image</key>
+        <string>Petra</string>
+    </dict>
+    
+</array>
+</plist>
